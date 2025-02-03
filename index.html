@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="My first website">
+  <meta name="keywords" content="INFO1601, uwi, web">
+  <title>My First Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #test{
+      color: red;
+    }
+    #test1{
+      color: blue;
+    }
+  </style>
+</head>
+  
+<body onload="document.getElementById ( 'Welcome' ).innerHTML='Welcome to my web page!'">
+  <button onclick="document.getElementById('greeting').innerHTML='Hello!'">
+    Click me
+  </button>
+  
+  
+  <p id="greeting"></p>
+  <h1> This is my first webpage </h1>
+  <hr> 
+  <p title= "This is a paragraph" style="color: green"> Welcome </p>
+  <p id="Welcome"> </p>
+
+     <figure>
+         <img src="cage.gif" alt="a random gif" width="200" height="200">
+         <figcaption>Fig 1. A random gif</figcaption>
+     </figure>
+  <details>
+   <summary>My hobbies are:</summary>
+  <ul>
+    <li>Swimming</li>
+    <li>Coding</li>
+    <li>Music</li>
+    <li>Memeing</li>
+   </ul>
+  </details>
+  </section>
+
+ <dialog id="mydialog">
+This is a dialog 
+   <a href="javascript:mydialog.removeAttribute('open')">close</a>
+                    </dialog>
+
+                    <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                        Open Dialog </a>
+
+            </article>
+
+        </body>
+    <html> 
